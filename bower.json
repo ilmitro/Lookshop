@@ -1,0 +1,18 @@
+{
+  "name": "Lookshop",
+  "version": "0.0.0",
+  "authors": [
+    "ilmitro <ilmitronna@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5"
+  }
+}
