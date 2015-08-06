@@ -1,0 +1,17 @@
+/* -------- email-user -------- */
+
+.email-user {
+	
+	&__label {
+		font-size: $font-size-second;
+		margin-right: 5px;
+	}
+
+	&__input {
+		max-width: 135px;
+		font-size: $font-size-second;
+		padding: 5px 0;
+		padding-left: 10px;
+	}
+}
+

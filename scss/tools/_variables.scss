@@ -4,7 +4,8 @@
 
 // Fonts
 $font-text: "Arial" sans-serif;
-$font-size: 16px;
+$font-size-base: 16px;
+$font-size-second: $font-size-base - 4;
 
 // Color
 $color-brand: #fd926d;

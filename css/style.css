@@ -67,4 +67,16 @@
   background-color: #d6d6d6;
 }
 
+/* -------- email-user -------- */
+.email-user__label {
+  font-size: 12px;
+  margin-right: 5px;
+}
+.email-user__input {
+  max-width: 135px;
+  font-size: 12px;
+  padding: 5px 0;
+  padding-left: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */
