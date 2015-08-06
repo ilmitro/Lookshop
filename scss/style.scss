@@ -1,2 +1,19 @@
 // Style
 // --------------------------------------------------
+
+
+// Tools
+@import "tools/variables";
+
+// Mixins
+@import "mixins/mixins";
+
+// Blocks
+@import "blocks/body";
+@import "blocks/link";
+@import "blocks/page-header";
+@import "blocks/logo";
+@import "blocks/main-nav";
+@import "blocks/cart";
+@import "blocks/slider";
+@import "blocks/fast-contacts";

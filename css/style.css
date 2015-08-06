@@ -1,3 +1,61 @@
+/* -------- body -------- */
+.body {
+  font: 16px "Arial" sans-serif;
+}
 
+/* -------- link -------- */
+.link {
+  text-decoration: none;
+  color: #000;
+}
+
+/* -------- page-header -------- */
+.page-header {
+  padding: 40px;
+}
+
+/* -------- logo -------- */
+.logo {
+  line-height: 50px;
+}
+
+/* -------- main-nav -------- */
+.main-nav__list {
+  list-style: none;
+}
+.main-nav__list-item {
+  display: inline-block;
+  margin-right: 20px;
+}
+.main-nav__link {
+  padding: 5px 0;
+  padding-right: 20px;
+}
+
+/* -------- cart -------- */
+.cart {
+  padding: 0 12px;
+  background-color: #f7f7f7;
+  border: 1px solid #d6d6d6;
+  font-size: 12px;
+  line-height: 48px;
+}
+.cart__products {
+  padding-right: 7px;
+  border-right: 1px solid #000;
+}
+.cart__sum {
+  padding-left: 7px;
+}
+
+/* -------- slider -------- */
+.slider {
+  margin-top: 40px;
+}
+
+/* -------- fast-contacts -------- */
+.fast-contacts {
+  background-color: #d6d6d6;
+}
 
 /*# sourceMappingURL=style.css.map */
