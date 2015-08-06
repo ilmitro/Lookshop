@@ -8,11 +8,15 @@
 
 	&__list-item {
 		display: inline-block;
-		margin-right: 20px;
+		margin-right: 10px;
 	}
 
 	&__link {
 		padding: 5px 0;
-		padding-right: 20px;	
+		padding-right: 20px;
+
+		&:hover {
+			color: $color-brand;
+		}	
 	}
 }

@@ -3,6 +3,12 @@
   font: 16px "Arial" sans-serif;
 }
 
+/* -------- wrapper -------- */
+.wrapper {
+  max-width: 970px;
+  margin: 0 auto;
+}
+
 /* -------- link -------- */
 .link {
   text-decoration: none;
@@ -11,7 +17,7 @@
 
 /* -------- page-header -------- */
 .page-header {
-  padding: 40px;
+  padding: 40px 0;
 }
 
 /* -------- logo -------- */
@@ -25,11 +31,14 @@
 }
 .main-nav__list-item {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 .main-nav__link {
   padding: 5px 0;
   padding-right: 20px;
+}
+.main-nav__link:hover {
+  color: #fd926d;
 }
 
 /* -------- cart -------- */

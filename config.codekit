@@ -2592,6 +2592,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/scss\/blocks\/_wrapper.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/blocks\/_wrapper.scss",
+		"outputAbbreviatedPath": "\/scss\/css\/_wrapper.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/scss\/mixins\/_mixins.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
