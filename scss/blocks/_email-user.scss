@@ -1,17 +1,19 @@
 /* -------- email-user -------- */
 
 .email-user {
+	font-size: 0;
+	margin: 15px 0;
 	
 	&__label {
-		font-size: $font-size-second;
-		margin-right: 5px;
+		font-size: $font-size-secondary;
+		margin-right: 10px;
 	}
 
 	&__input {
-		max-width: 135px;
-		font-size: $font-size-second;
-		padding: 5px 0;
+		font-size: $font-size-secondary;
+		padding: 8px 0;
 		padding-left: 10px;
+		border: 0;
 	}
 }
 

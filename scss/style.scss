@@ -8,8 +8,10 @@
 // Mixins
 @import "mixins/mixins";
 
+
 // Blocks
 @import "blocks/body";
+@import "blocks/fontello-icons";
 @import "blocks/wrapper";
 @import "blocks/link";
 @import "blocks/page-header";
@@ -19,3 +21,5 @@
 @import "blocks/slider";
 @import "blocks/fast-contacts";
 @import "blocks/email-user";
+@import "blocks/button";
+@import "blocks/promo";

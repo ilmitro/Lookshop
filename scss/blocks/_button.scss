@@ -1,0 +1,11 @@
+/* -------- button -------- */
+
+.button {
+	@include btn;
+	
+	&--email {
+		position: absolute;
+		width: 27px;
+		height: 27px;
+	}
+}

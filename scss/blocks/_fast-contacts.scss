@@ -2,4 +2,42 @@
 
 .fast-contacts {
 	background-color: $color-gray;
+	font-size: 0;
+
+	&__social {
+	
+	}
+
+	&__social-title {
+		font-size: $font-size-secondary;
+		margin-right: 20px;
+	}
+
+	&__social-fbk {
+		display: inline-block;
+		padding: 18.5px 16px;
+		font-size: $font-size-secondary;
+		background-color: $color-gray-lighter;
+
+		&:hover {
+			color: #3A5795;	
+		}
+	}
+
+	&__social-twt {
+		@extend .fast-contacts__social-fbk;
+		background-color: $color-gray;
+
+		&:hover {
+			color: #55ACEE;
+		}
+	}
+
+	&__social-pnt {
+		@extend .fast-contacts__social-fbk;
+
+		&:hover {
+			color: #BD2126;
+		}
+	}
 }

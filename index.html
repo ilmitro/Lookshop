@@ -5,12 +5,14 @@
 	<title>Lookshop - Главная</title>
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="css/vendor/bootstrap.css">
+	<!-- Fontello -->
+	<link rel="stylesheet" href="css/vendor/fontello.css">
 	<!-- Main styles -->
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body class="body">
 	
-	<div class="container">
+<div class="container">
 	
 	<!-- Header -->
 	<header class="page-header">
@@ -32,6 +34,7 @@
 				</div>
 				<div class="col-xs-3">
 					<div class="cart">
+						<i class="icon-shop"></i>
 						<span class="cart__products">0 items</span>
 						<span class="cart__sum">$ 0</span>
 					</div>
@@ -49,186 +52,186 @@
 	<!-- Content -->
 	<main>
 
-		<!-- Fast contacts -->
-		<div class="fast-contacts">
-			<div class="wrapper">
-				<div class="row">
-					<div class="col-xs-4">
-						<form class="email-user" action="">
-							<label class="email-user__label" for="email-user">Stay updated</label>
-							<input class="email-user__input" id="email-user" name="email-user__input" type="text" placeholder="Your email address">
-							<input class="email-user__btn" value="" type="submit">
-						</form>
-					</div>
-					<div class="col-xs-3 col-xs-offset-5">
-						<div class="fast-contacts__social">
-							<span>Find us here</span>
-							<a class="fast-contacts__social-fbk" href="#"></a>
-							<a class="fast-contacts__social-twt" href="#"></a>
-							<a class="fast-contacts__social-pnt" href="#"></a>
-						</div>
+	<!-- Fast contacts -->
+	<div class="fast-contacts">
+		<div class="wrapper">
+			<div class="row">
+				<div class="col-xs-4">
+					<form class="email-user" action="">
+						<label class="email-user__label" for="email-user">Stay updated</label>
+						<input class="email-user__input" id="email-user" name="email-user__input" type="text" placeholder="Your email address">
+						<input class="button button--email" value="" type="submit">
+					</form>
+				</div>
+				<div class="col-xs-4 col-xs-offset-4">
+					<div class="fast-contacts__social">
+						<span class="fast-contacts__social-title">Find us here</span>
+						<a class="fast-contacts__social-fbk link" href="#"><i class="icon-facebook"></i></a>
+						<a class="fast-contacts__social-twt link" href="#"><i class="icon-twitter"></i></a>
+						<a class="fast-contacts__social-pnt link" href="#"><i class="icon-pinterest"></i></a>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
 
-		
-		<!-- Promo -->
-		<div class="promo">
-			<div class="wrapper">
-				<div class="row">
-					<div class="col-xs-6">
-						<a class="promo__link" href="#">
-							<img class="promo__img" src="https://unsplash.it/480/340/?random" alt="">
-						</a>	
-					</div>
-					<div class="col-xs-6">
-						<a class="promo__link" href="#">
-							<img class="promo__img" src="https://unsplash.it/480/170/?random" alt="">
-						</a>
-						<div class="row">
-							<div class="col-xs-12">
-								<a class="promo__link" href="#">
-									<img class="promo__img" src="https://unsplash.it/240/170/?random" alt="">
-								</a>
-								<a class="promo__link" href="#">
-									<img class="promo__img" src="https://unsplash.it/240/170/?random" alt="">
-								</a>	
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 	
-
-		<!-- Products -->
-		<div class="catalog">
-			<div class="wrapper">
-				<div class="row">
-					<div class="col-xs-3">
-						<div class="card-product">
-							<img class="card-product__img" src="https://unsplash.it/220/290/?random" alt="">
-							<div class="card-product__name">Lorem ipsum dolor</div>
-							<div class="card-product__price">$76.50</div>
-							<button class="card-product__add-cart">Add to cart</button>
-						</div>	
-					</div>
-					<div class="col-xs-3">
-						<div class="card-product">
-							<img class="card-product__img" src="https://unsplash.it/220/290/?random" alt="">
-							<div class="card-product__name">Lorem ipsum dolor</div>
-							<div class="card-product__price">$76.50</div>
-							<button class="card-product__add-cart">Add to cart</button>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="card-product">
-							<img class="card-product__img" src="https://unsplash.it/220/290/?random" alt="">
-							<div class="card-product__name">Lorem ipsum dolor</div>
-							<div class="card-product__price">$76.50</div>
-							<button class="card-product__add-cart">Add to cart</button>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="card-product">
-							<img class="card-product__img" src="https://unsplash.it/220/290/?random" alt="">
-							<div class="card-product__name">Lorem ipsum dolor</div>
-							<div class="card-product__price">$76.50</div>
-							<button class="card-product__add-cart">Add to cart</button>
-						</div>
-					</div>
+	<!-- Promo -->
+	<div class="promo">
+		<div class="wrapper">
+			<div class="row">
+				<div class="col-xs-6">
+					<a class="promo__link" href="#">
+						<img class="promo__img img-responsive" src="https://unsplash.it/450/340/?random" alt="">
+					</a>	
 				</div>
-				<button class="load-more">Load more</button>
-			</div>
-		</div>
-
-
-		<!-- Clearance -->
-		<div class="clearance">
-			<div class="wrapper">
-				<img class="clearance-percent" src="https://unsplash.it/150/150/?random" alt="">
-				<div class="row">
-					<div class="col-xs-3">
-						<div class="card-product">
-							<img class="card-product__img" src="https://unsplash.it/220/290/?random" alt="">
-							<div class="card-product__name">Lorem ipsum dolor</div>
-							<div class="card-product__price">$76.50</div>
-							<button class="card-product__add-cart">Add to cart</button>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="card-product">
-							<img class="card-product__img" src="https://unsplash.it/220/290/?random" alt="">
-							<div class="card-product__name">Lorem ipsum dolor</div>
-							<div class="card-product__price">$76.50</div>
-							<button class="card-product__add-cart">Add to cart</button>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="card-product">
-							<img class="card-product__img" src="https://unsplash.it/220/290/?random" alt="">
-							<div class="card-product__name">Lorem ipsum dolor</div>
-							<div class="card-product__price">$76.50</div>
-							<button class="card-product__add-cart">Add to cart</button>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="card-product">
-							<img class="card-product__img" src="https://unsplash.it/220/290/?random" alt="">
-							<div class="card-product__name">Lorem ipsum dolor</div>
-							<div class="card-product__price">$76.50</div>
-							<button class="card-product__add-cart">Add to cart</button>
+				<div class="col-xs-6">
+					<a class="promo__link" href="#">
+						<img class="promo__img img-responsive" src="https://unsplash.it/450/170/?random" alt="">
+					</a>
+					<div class="row">
+						<div class="col-xs-12">
+							<a class="promo__link" href="#">
+								<img class="promo__img img-responsive" src="https://unsplash.it/225/170/?random" alt="">
+							</a>
+							<a class="promo__link" href="#">
+								<img class="promo__img img-responsive" src="https://unsplash.it/225/170/?random" alt="">
+							</a>	
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
 
 
-		<!-- Brands -->
-		<div class="brands">
-			<div class="wrapper">
-				<div class="brands__title">Brands</div>
-				<img class="brands__logo" src="https://unsplash.it/70/30/?random" alt="">
-				<img class="brands__logo" src="https://unsplash.it/70/30/?random" alt="">
-				<img class="brands__logo" src="https://unsplash.it/70/30/?random" alt="">
-				<img class="brands__logo" src="https://unsplash.it/70/30/?random" alt="">
-				<img class="brands__logo" src="https://unsplash.it/70/30/?random" alt="">
-				<img class="brands__logo" src="https://unsplash.it/70/30/?random" alt="">
-				<img class="brands__logo" src="https://unsplash.it/70/30/?random" alt="">
-				<img class="brands__logo" src="https://unsplash.it/70/30/?random" alt="">
+	<!-- Products -->
+	<div class="catalog">
+		<div class="wrapper">
+			<div class="row">
+				<div class="col-xs-3">
+					<div class="card-product">
+						<img class="card-product__img" src="https://unsplash.it/220/290/?random" alt="">
+						<div class="card-product__name">Lorem ipsum dolor</div>
+						<div class="card-product__price">$76.50</div>
+						<button class="button">Add to cart</button>
+					</div>	
+				</div>
+				<div class="col-xs-3">
+					<div class="card-product">
+						<img class="card-product__img" src="https://unsplash.it/220/290/?random" alt="">
+						<div class="card-product__name">Lorem ipsum dolor</div>
+						<div class="card-product__price">$76.50</div>
+						<button class="card-product__add-cart">Add to cart</button>
+					</div>
+				</div>
+				<div class="col-xs-3">
+					<div class="card-product">
+						<img class="card-product__img" src="https://unsplash.it/220/290/?random" alt="">
+						<div class="card-product__name">Lorem ipsum dolor</div>
+						<div class="card-product__price">$76.50</div>
+						<button class="card-product__add-cart">Add to cart</button>
+					</div>
+				</div>
+				<div class="col-xs-3">
+					<div class="card-product">
+						<img class="card-product__img" src="https://unsplash.it/220/290/?random" alt="">
+						<div class="card-product__name">Lorem ipsum dolor</div>
+						<div class="card-product__price">$76.50</div>
+						<button class="card-product__add-cart">Add to cart</button>
+					</div>
+				</div>
+			</div>
+			<button class="load-more">Load more</button>
+		</div>
+	</div>
+
+
+	<!-- Clearance -->
+	<div class="clearance">
+		<div class="wrapper">
+			<img class="clearance-percent" src="https://unsplash.it/150/150/?random" alt="">
+			<div class="row">
+				<div class="col-xs-3">
+					<div class="card-product">
+						<img class="card-product__img" src="https://unsplash.it/220/290/?random" alt="">
+						<div class="card-product__name">Lorem ipsum dolor</div>
+						<div class="card-product__price">$76.50</div>
+						<button class="card-product__add-cart">Add to cart</button>
+					</div>
+				</div>
+				<div class="col-xs-3">
+					<div class="card-product">
+						<img class="card-product__img" src="https://unsplash.it/220/290/?random" alt="">
+						<div class="card-product__name">Lorem ipsum dolor</div>
+						<div class="card-product__price">$76.50</div>
+						<button class="card-product__add-cart">Add to cart</button>
+					</div>
+				</div>
+				<div class="col-xs-3">
+					<div class="card-product">
+						<img class="card-product__img" src="https://unsplash.it/220/290/?random" alt="">
+						<div class="card-product__name">Lorem ipsum dolor</div>
+						<div class="card-product__price">$76.50</div>
+						<button class="card-product__add-cart">Add to cart</button>
+					</div>
+				</div>
+				<div class="col-xs-3">
+					<div class="card-product">
+						<img class="card-product__img" src="https://unsplash.it/220/290/?random" alt="">
+						<div class="card-product__name">Lorem ipsum dolor</div>
+						<div class="card-product__price">$76.50</div>
+						<button class="card-product__add-cart">Add to cart</button>
+					</div>
+				</div>
 			</div>
 		</div>
+	</div>
 
 
-		<!-- About lookshop -->
-		<div class="about">
-			<div class="wrapper">
-				<div class="about__title">About Lookshop</div>
-				<p class="about__text">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus numquam exercitationem cum maxime quas ad commodi quos incidunt eum voluptates, laboriosam iusto reprehenderit totam dolores soluta! Aperiam voluptatem excepturi magni commodi id aspernatur sit vero quidem voluptatibus, harum est quibusdam quasi soluta quaerat eaque, earum? Sequi, molestias vero laboriosam reprehenderit.
-				</p>	
-			</div>
+	<!-- Brands -->
+	<div class="brands">
+		<div class="wrapper">
+			<div class="brands__title">Brands</div>
+			<img class="brands__logo" src="https://unsplash.it/70/30/?random" alt="">
+			<img class="brands__logo" src="https://unsplash.it/70/30/?random" alt="">
+			<img class="brands__logo" src="https://unsplash.it/70/30/?random" alt="">
+			<img class="brands__logo" src="https://unsplash.it/70/30/?random" alt="">
+			<img class="brands__logo" src="https://unsplash.it/70/30/?random" alt="">
+			<img class="brands__logo" src="https://unsplash.it/70/30/?random" alt="">
+			<img class="brands__logo" src="https://unsplash.it/70/30/?random" alt="">
+			<img class="brands__logo" src="https://unsplash.it/70/30/?random" alt="">
 		</div>
+	</div>
 
 
-		<!-- Payment cards -->
-		<div class="payment-cards">
-			<div class="wrapper">
-				<span class="payment-cards__accept">We accept</span>
-				<img class="payment-cards__img" src="https://unsplash.it/30/20/?random" alt="">
-				<img class="payment-cards__img" src="https://unsplash.it/30/20/?random" alt="">
-				<img class="payment-cards__img" src="https://unsplash.it/30/20/?random" alt="">
-				<img class="payment-cards__img" src="https://unsplash.it/30/20/?random" alt="">
-				<img class="payment-cards__img" src="https://unsplash.it/30/20/?random" alt="">
-				<img class="payment-cards__img" src="https://unsplash.it/30/20/?random" alt="">
-				<img class="payment-cards__img" src="https://unsplash.it/30/20/?random" alt="">
-				<img class="payment-cards__img" src="https://unsplash.it/30/20/?random" alt="">
-				<img class="payment-cards__img" src="https://unsplash.it/30/20/?random" alt="">
-				<img class="payment-cards__img" src="https://unsplash.it/30/20/?random" alt="">
-			</div>
+	<!-- About lookshop -->
+	<div class="about">
+		<div class="wrapper">
+			<div class="about__title">About Lookshop</div>
+			<p class="about__text">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus numquam exercitationem cum maxime quas ad commodi quos incidunt eum voluptates, laboriosam iusto reprehenderit totam dolores soluta! Aperiam voluptatem excepturi magni commodi id aspernatur sit vero quidem voluptatibus, harum est quibusdam quasi soluta quaerat eaque, earum? Sequi, molestias vero laboriosam reprehenderit.
+			</p>	
 		</div>
+	</div>
+
+
+	<!-- Payment cards -->
+	<div class="payment-cards">
+		<div class="wrapper">
+			<span class="payment-cards__accept">We accept</span>
+			<img class="payment-cards__img" src="https://unsplash.it/30/20/?random" alt="">
+			<img class="payment-cards__img" src="https://unsplash.it/30/20/?random" alt="">
+			<img class="payment-cards__img" src="https://unsplash.it/30/20/?random" alt="">
+			<img class="payment-cards__img" src="https://unsplash.it/30/20/?random" alt="">
+			<img class="payment-cards__img" src="https://unsplash.it/30/20/?random" alt="">
+			<img class="payment-cards__img" src="https://unsplash.it/30/20/?random" alt="">
+			<img class="payment-cards__img" src="https://unsplash.it/30/20/?random" alt="">
+			<img class="payment-cards__img" src="https://unsplash.it/30/20/?random" alt="">
+			<img class="payment-cards__img" src="https://unsplash.it/30/20/?random" alt="">
+			<img class="payment-cards__img" src="https://unsplash.it/30/20/?random" alt="">
+		</div>
+	</div>
 
 	</main>
 
