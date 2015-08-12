@@ -2552,6 +2552,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/ic-fav.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1438,
+		"inputAbbreviatedPath": "\/img\/ic-fav.png",
+		"outputAbbreviatedPath": "\/img\/ic-fav.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/ic-maestro.png": {
 		"fileType": 32768,
 		"ignore": 0,

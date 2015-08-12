@@ -150,6 +150,7 @@
 /* -------- slider -------- */
 .slider {
   margin: 40px 0;
+  position: relative;
 }
 
 /* -------- fast-contacts -------- */
@@ -229,6 +230,30 @@
   padding: 10px 25px;
   text-transform: uppercase;
   box-shadow: none;
+}
+.button--slider {
+  position: absolute;
+  bottom: 15%;
+  left: 23%;
+  padding: 15px;
+  padding-right: 40px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.button--slider:before {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border: 1px solid #fff;
+  border-top: transparent;
+  border-left: transparent;
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  top: 38%;
+  right: 10%;
 }
 
 /* -------- promo -------- */
