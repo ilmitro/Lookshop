@@ -2442,13 +2442,13 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/font\/config.json": {
+	"\/fonts\/fontello\/config.json": {
 		"fileType": 524288,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/font\/config.json",
+		"inputAbbreviatedPath": "\/fonts\/fontello\/config.json",
 		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/font\/config-min.json",
+		"outputAbbreviatedPath": "\/fonts\/fontello\/config-min.json",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
