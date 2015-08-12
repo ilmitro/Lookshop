@@ -1,7 +1,7 @@
 /* -------- promo -------- */
 
 .promo {
-	padding: 40px 0;
+	margin: 40px 0;
 	font-size: 0;
 
 	&__link {
@@ -12,7 +12,6 @@
 			margin-right: 2%;
 		}
 	}
-	
 	
 	&__img {
 		@include img-responsive;

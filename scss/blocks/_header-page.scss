@@ -1,0 +1,26 @@
+/* -------- page-header -------- */
+
+.header-page {
+
+	&__above {
+		padding: 10px 0;
+		margin-bottom: 40px;
+		background-color: #000;
+		text-transform: uppercase;
+		font-size: $font-size-secondary;
+		color: #fff;
+	}
+
+	&__above-account {
+		text-align: right;
+	}
+
+	&__above-account-name {
+		color: #fff;
+		margin-left: 5px;
+
+		&:hover {
+			opacity: .5;
+		}
+	}
+}

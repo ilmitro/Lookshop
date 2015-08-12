@@ -1,0 +1,15 @@
+/* -------- payment cards -------- */
+
+.payment-cards {
+	padding: 20px;
+	text-align: center;
+	background-color: $color-gray-lighter;
+
+	&__accept {
+		margin-right: 10px;
+	}
+
+	&__img {
+		margin-right: 15px;
+	}
+}

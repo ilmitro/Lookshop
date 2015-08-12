@@ -3,4 +3,8 @@
 .link {
 	text-decoration: none;
 	color: #000;
+
+	&--underline:hover {
+		text-decoration: underline;
+	}
 }

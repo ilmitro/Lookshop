@@ -1,0 +1,13 @@
+/* -------- about -------- */
+
+.about {
+	text-align: center;
+
+	&__title {
+		font-size: $font-size-large;
+	}
+
+	&__text {
+		line-height: 20px;
+	}
+}
