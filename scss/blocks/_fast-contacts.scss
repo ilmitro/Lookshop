@@ -2,15 +2,15 @@
 
 .fast-contacts {
 	background-color: $color-gray;
-	font-size: 0;
 
 	&__social {
-	
+		text-align: right;
+		font-size: 0;
 	}
 
 	&__social-title {
 		font-size: $font-size-secondary;
-		margin-right: 20px;
+		margin-right: 15px;
 	}
 
 	&__social-fbk {

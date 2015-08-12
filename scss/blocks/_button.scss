@@ -4,9 +4,9 @@
 	@include btn;
 	
 	&--email {
-		position: absolute;
-		width: 27px;
-		height: 27px;
+		font-size: $font-size-base;
+		color: #fff; 
+		padding: 5px;
 	}
 
 	&--card {
@@ -45,7 +45,6 @@
 			transform: rotate(-45deg);
 			top: 38%;
 			right: 10%;
-
 		}
 	}
 }

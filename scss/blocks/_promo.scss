@@ -2,16 +2,6 @@
 
 .promo {
 	margin: 40px 0;
-	font-size: 0;
-
-	&__link {
-		display: inline-block;
-		max-width: 49%;
-
-		&:first-child {
-			margin-right: 2%;
-		}
-	}
 	
 	&__img {
 		@include img-responsive;
