@@ -5,15 +5,14 @@
 	text-align: center;
 
 	&__percent {
-		margin-bottom: 30px;
 		position: relative;
+		margin-bottom: 30px;
 
 		&:before {
 			position: absolute;
 			top: 50%;
 			left: 0;
 			content: "";
-			display: inline-block;
 			width: 100%;
 			height: 1px;
 			background-color: $color-gray;

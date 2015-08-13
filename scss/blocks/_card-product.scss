@@ -1,8 +1,9 @@
 /* -------- card-product -------- */
 
 .card-product {
+	position: relative;
 	background-color: #f7f7f7;
-	padding-bottom: 15px;
+	padding-bottom: 20px;
 	margin-bottom: 30px;
 
 	&__img {
@@ -19,4 +20,51 @@
 		font-size: $font-size-large;
 		margin-bottom: 10px;	
 	}
+
+	&__shop {
+		opacity: 0;
+		position: absolute;
+		top: 25%;
+		left: 26%;
+		width: 110px;
+		height: 110px;
+		padding-top: 17px;
+		border-radius: 50%;
+		background-color: $color-gray-darker;
+		color: #fff;
+		text-transform: uppercase;
+		transition: opacity .5s;
+	}
+
+	.icon-shop--size {
+		font-size: 30px;
+	}
+
+	&__shop-text {
+		display: block;
+		margin-top: 10px;
+	}
+
+	&:hover .card-product__shop {
+		opacity: .9;
+	}
+
+	&__sale {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		padding: 5px;
+		font-size: $font-size-small;
+		background-image: linear-gradient(135deg, $color-gray-darker 50%, #fff 50%);
+		color: #fff;
+		text-transform: uppercase;
+		text-align: left;
+	}
 }
+
+
+
+
+
+
+

@@ -6,7 +6,7 @@
 $font-text: "Arial" sans-serif;
 $font-size-base: 16px;
 $font-size-secondary: $font-size-base - 4;
-$font-size-small: $font-size-base - 5;
+$font-size-small: $font-size-base - 6;
 $font-size-large: $font-size-base + 6;
 
 // Color
@@ -16,3 +16,4 @@ $color-brand-lighter: lighten($color-brand, 5%);
 
 $color-gray: #d6d6d6;
 $color-gray-lighter: lighten($color-gray, 13%);
+$color-gray-darker: darken($color-gray, 40%);

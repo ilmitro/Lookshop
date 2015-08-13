@@ -1,0 +1,20 @@
+/* -------- new-products -------- */
+
+.new-products {
+	position: relative;
+	padding: 30px 0;
+	background-color: $color-brand;
+	text-align: center;
+
+	&__title {
+		position: absolute;
+		top: -50px;
+		left: 85px;
+		padding: 10px 15px;
+		font-size: $font-size-base;
+		font-weight: normal;
+		text-transform: uppercase;
+		color: #fff;
+		background-color: $color-brand;
+	}
+}
