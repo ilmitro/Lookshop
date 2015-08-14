@@ -2,17 +2,17 @@
 // --------------------------------------------------
 
 @mixin btn {
-	background-color: $color-brand;
-	outline: none;
-	border: none;
-	box-shadow: 0 3px 0 0 $color-brand-darker;
+  background-color: $color-brand;
+  outline: none;
+  border: none;
+  box-shadow: 0 3px 0 0 $color-brand-darker;
 
-	&:hover {
-		background-color: $color-brand-lighter;
-	}
+  &:hover {
+    background-color: $color-brand-lighter;
+  }
 
-	&:active {
-		transform: translateY(3px);
-		box-shadow: none;
-	}
+  &:active {
+    transform: translateY(3px);
+    box-shadow: none;
+  }
 }

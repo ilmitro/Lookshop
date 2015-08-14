@@ -1,16 +1,16 @@
 /* -------- payment cards -------- */
 
 .payment-cards {
-	padding: 20px;
-	text-align: center;
-	background-color: $color-gray-lighter;
-	font-size: $font-size-secondary;
+  padding: 20px;
+  text-align: center;
+  background-color: $color-gray-lighter;
+  font-size: $font-size-secondary;
 
-	&__accept {
-		margin-right: 10px;
-	}
+  &__accept {
+    margin-right: 10px;
+  }
 
-	&__img {
-		margin-right: 15px;
-	}
+  &__img {
+    margin-right: 15px;
+  }
 }

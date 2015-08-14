@@ -1,31 +1,31 @@
 /* -------- footer-page -------- */
 
 .footer-page {
-	padding-top: 25px;
-	background-color: $color-gray;
+  padding-top: 25px;
+  background-color: $color-gray;
 
-	&__title {
-		margin-bottom: 15px;
-		font-weight: bold;
-	}
+  &__title {
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
 
-	&__list {
-		padding-left: 0;
-		margin: 0;
-		list-style: none;
-	}
+  &__list {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+  }
 
-	&__list-item {
-		padding: 2px 0;
-		font-size: $font-size-secondary;
-	}
+  &__list-item {
+    padding: 2px 0;
+    font-size: $font-size-secondary;
+  }
 
-	&__under {
-		background-color: #000;
-		margin-top: 20px;
-		padding: 15px 0;
-		text-align: center;
-		color: #fff;
-		font-size: $font-size-small;
-	}
+  &__under {
+    background-color: #000;
+    margin-top: 20px;
+    padding: 15px 0;
+    text-align: center;
+    color: #fff;
+    font-size: $font-size-small;
+  }
 }

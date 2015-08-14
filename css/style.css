@@ -172,16 +172,16 @@
   background-color: #f7f7f7;
 }
 .fast-contacts__social-fbk:hover, .fast-contacts__social-twt:hover, .fast-contacts__social-pnt:hover {
-  color: #3A5795;
+  color: #3a5795;
 }
 .fast-contacts__social-twt {
   background-color: #d6d6d6;
 }
 .fast-contacts__social-twt:hover {
-  color: #55ACEE;
+  color: #55acee;
 }
 .fast-contacts__social-pnt:hover {
-  color: #BD2126;
+  color: #bd2126;
 }
 
 /* -------- email-user -------- */

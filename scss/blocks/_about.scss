@@ -1,13 +1,13 @@
 /* -------- about -------- */
 
 .about {
-	text-align: center;
+  text-align: center;
 
-	&__title {
-		font-size: $font-size-large;
-	}
+  &__title {
+    font-size: $font-size-large;
+  }
 
-	&__text {
-		line-height: 20px;
-	}
+  &__text {
+    line-height: 20px;
+  }
 }

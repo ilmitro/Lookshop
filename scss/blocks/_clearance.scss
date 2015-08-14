@@ -1,29 +1,28 @@
 /* -------- clearance -------- */
 
 .clearance {
-	margin: 40px 0;
-	text-align: center;
+  margin: 40px 0;
+  text-align: center;
 
-	&__percent {
-		position: relative;
-		margin-bottom: 30px;
+  &__percent {
+    position: relative;
+    margin-bottom: 30px;
 
-		&:before {
-			position: absolute;
-			top: 50%;
-			left: 0;
-			content: "";
-			width: 100%;
-			height: 1px;
-			background-color: $color-gray;
-		}
-	}
+    &:before {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      content: "";
+      width: 100%;
+      height: 1px;
+      background-color: $color-gray;
+    }
+  }
 
-	&__percent-img {
-		@include img-responsive;
-		position: relative;
-		z-index: 1;
-		box-shadow: 0 0 0 10px #fff;
-	}
+  &__percent-img {
+    @include img-responsive;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 0 0 10px #fff;
+  }
 }
-
