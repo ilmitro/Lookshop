@@ -1,10 +1,11 @@
 /* -------- fast-contacts -------- */
 
 .fast-contacts {
+  padding: 0 20px;
   background-color: $color-gray;
 
   &__social {
-    text-align: right;
+    float: right;
     font-size: 0;
   }
 
@@ -38,6 +39,22 @@
 
     &:hover {
       color: #bd2126;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .fast-contacts {
+    margin-top: 15px;
+    text-align: center;
+    background-color: #fff;
+
+    &__social {
+      float: none;
+    }
+
+    &__social-title {
+      display: none;
     }
   }
 }

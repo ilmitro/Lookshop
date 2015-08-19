@@ -1,7 +1,7 @@
 /* -------- footer-page -------- */
 
 .footer-page {
-  padding-top: 25px;
+  padding: 25px 20px;
   background-color: $color-gray;
 
   &__title {
@@ -15,17 +15,27 @@
     list-style: none;
   }
 
-  &__list-item {
+  &__item {
     padding: 2px 0;
     font-size: $font-size-secondary;
   }
 
-  &__under {
-    background-color: #000;
-    margin-top: 20px;
-    padding: 15px 0;
-    text-align: center;
+  &__info {
+    display: none;
     color: #fff;
-    font-size: $font-size-small;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer-page {
+    &__section {
+      display: none;
+    }
+
+    &__info {
+      display: block;
+      text-align: center;
+    }
   }
 }

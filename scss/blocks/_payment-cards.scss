@@ -6,11 +6,17 @@
   background-color: $color-gray-lighter;
   font-size: $font-size-secondary;
 
-  &__accept {
+  &__title {
     margin-right: 10px;
   }
 
   &__img {
     margin-right: 15px;
+  }
+}
+
+@media (max-width: 640px) {
+  .payment-cards {
+    display: none;
   }
 }

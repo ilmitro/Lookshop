@@ -1,26 +1,56 @@
-/* -------- page-header -------- */
+/* -------- header-page -------- */
 
 .header-page {
 
-  &__above {
-    padding: 10px 0;
-    margin-bottom: 40px;
+  &__top {
+    padding: 10px 20px;
+    margin-bottom: 30px;
     background-color: #000;
     text-transform: uppercase;
     font-size: $font-size-secondary;
     color: #fff;
   }
 
-  &__above-account {
-    text-align: right;
+  &__phone {
+    float: left;
   }
 
-  &__above-account-name {
+  &__account {
+    float: right;
+  }
+
+  &__name {
     color: #fff;
     margin-left: 5px;
 
     &:hover {
       opacity: .5;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .header-page {
+    &__top {
+      margin-bottom: 15px;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .header-page {
+
+    &__top {
+      text-align: center;
+    }
+
+    &__phone,
+    &__account {
+      float: none;
+    }
+
+    &__phone {
+      margin-bottom: 15px;
     }
   }
 }

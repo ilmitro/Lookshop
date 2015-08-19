@@ -1,25 +1,70 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Lookshop - Главная</title>
-  <!-- Bootstrap -->
+  <title>Document</title>
+  <style type="text/css">
+
+    /*.main-nav {
+      width: 100%;
+      background-color:#65A8A6;
+    }
+
+    .main-nav__item {
+      display:inline-block;  
+    }
+
+    
+
+    .main-nav__link:hover {
+      background: #E65540;
+    }
+
+    .main-nav__title {
+      display:none;
+      color:#F8ECC2;
+    }
+
+    .main-nav__sub-list {
+      display: none;
+    }
+
+    @media screen and (max-width:992px) {
+      .main-nav__title {
+        display:block;
+      }
+      .main-nav__item {
+        display:block;
+        border-top:1px #79896D solid;    
+      }
+      .main-nav__list {
+        display:none;
+      }
+    }*/
+
+  </style>
   <link rel="stylesheet" href="css/vendor/bootstrap.css">
-  <!-- Fontello -->
-  <link rel="stylesheet" href="css/vendor/fontello.css">
-  <!-- Main styles -->
   <link rel="stylesheet" href="css/style.css">
-  <!-- Jquery -->
+
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
-  <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
-  <!-- <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script> -->
+  <!-- <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script> -->
+  
 </head>
+<body>
+  
 
-<body class="body">
+  <!-- <nav class="main-nav">
+    <a href="#" class="main-nav__title">Menu</a>
+    <ul class="main-nav__list">
+      <li class="main-nav__item"><a class="main-nav__link" href="#">Home</a></li>
+      <li class="main-nav__item"><a class="main-nav__link" href="#">About</a></li>
+      <li class="main-nav__item"><a class="main-nav__link" href="#">Contact</a></li>
+      <li class="main-nav__item"><a class="main-nav__link" href="#">Products</a></li>
+    </ul>
+  </nav> -->
 <div class="container">
-
-<!-- Header -->
+  <!-- Header -->
 <header class="header-page">
 
   <!-- header-page__top -->
@@ -49,10 +94,10 @@
       <div class="col-md-3 col-md-push-7">
         <a class="cart link clearfix" href="#">
           <span class="icon-shop"></span>
-          <div class="cart__inform">
+          <span class="cart__inform">
             <span class="cart__items">0 items</span>
             <span class="cart__sum">$ 0</span>
-          </div>
+          </span>
         </a>
       </div>
       <!-- /.cart -->
@@ -90,7 +135,7 @@
               </ul>
             </li>
             <li class="main-nav__item">
-              <a class="main-nav__link link" href="#">man</a>
+              <a class="main-nav__link link" href="#">men</a>
               <ul class="main-nav__sub-list">
                 <li class="main-nav__sub-item"><a class="main-nav__link link" href="#">lorem ipsum</a></li>
                 <li class="main-nav__sub-item"><a class="main-nav__link link" href="#">repellat</a></li>
@@ -114,8 +159,6 @@
 
     </div><!-- /.row -->
   </div><!-- /.wrapper -->
-
-
   <!-- slider - bootstrap -->
   <div class="slider">
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -131,14 +174,17 @@
       <div class="carousel-inner" role="listbox">
         <div class="item active">
           <img src="pict/slider_header/img-slider.jpg" alt="Women Collection">
+          <a class="button button--slider link" href="#">Shop now</a>
           <div class="carousel-caption"></div>
         </div>
         <div class="item">
           <img src="pict/slider_header/img-slider.jpg" alt="Women Collection">
+          <a class="button button--slider link" href="#">Shop now</a>
           <div class="carousel-caption"></div>
         </div>
         <div class="item">
           <img src="pict/slider_header/img-slider.jpg" alt="Women Collection">
+          <a class="button button--slider link" href="#">Shop now</a>
           <div class="carousel-caption"></div>
         </div>
       </div>
@@ -155,36 +201,40 @@
     </div>
   </div>
   <!-- /.slider -->
-
-</header>
-
+  </header>
 
 
 
-<!-- Content -->
+  <!-- Content -->
 <main>
 
   <!-- fast-contacts -->
   <div class="fast-contacts">
-    <div class="wrapper clearfix">
+    <div class="wrapper">
+      <div class="row">
 
         <!-- email-user -->
+        <div class="col-md-4 col-sm-6">
           <form class="email-user" action="">
             <label class="email-user__label" for="email-user">Stay updated</label>
             <input class="email-user__input" id="email-user" name="email-user__input" type="text"placeholder="Your email address">
             <button class="button button--email"><i class="icon-plus"></i></button>
           </form>
+        </div>
         <!-- /.email-user -->
 
         <!-- fast-contacts__social -->
+        <div class="col-md-4 col-md-offset-4 col-sm-6">
           <div class="fast-contacts__social">
             <span class="fast-contacts__social-title">Find us here</span>
             <a class="fast-contacts__social-fbk link" href="#"><i class="icon-facebook"></i></a>
             <a class="fast-contacts__social-twt link" href="#"><i class="icon-twitter"></i></a>
             <a class="fast-contacts__social-pnt link" href="#"><i class="icon-pinterest"></i></a>
           </div>
+        </div>
         <!-- /.fast-contacts__social -->
 
+      </div><!-- /.row -->
     </div><!-- /.wrapper -->
   </div>
   <!-- /.fast-contacts -->
@@ -193,8 +243,14 @@
   <!-- promo -->
   <div class="promo">
     <div class="wrapper">
-      <a class="promo__link" href=""><img class="promo__img" src="pict/promo-img1.jpg" alt=""></a>
-      <a class="promo__link" href=""><img class="promo__img" src="pict/promo-img2-2.jpg" alt=""></a>
+      <div class="row">
+        <div class="col-sm-6">
+          <a class="promo__link" href=""><img class="promo__img" src="pict/promo-img1.jpg" alt=""></a>
+        </div>
+        <div class="col-sm-6">
+          <a class="promo__link" href=""><img class="promo__img" src="pict/promo-img2-2.jpg" alt=""></a>
+        </div>
+      </div>
     </div>
   </div>
   <!-- /.promo -->
@@ -209,15 +265,13 @@
   
     <div class="new-products__list">
       <div class="wrapper">
-        <div class="row-inline">
+        <div class="row">
 
           <!-- card-product -->
-          <div class="col">
+          <div class="col-md-3 col-xs-6">
             <div class="card-product">
-              <a href="" class="card-product__link link">
-                <img class="card-product__img" src="pict/card-pr1.jpg" alt="Name product">
-              </a>
-              <div class="card-product__name">Mimosa lace dress</div>
+              <img class="card-product__img" src="pict/card-pr1.jpg" alt="">
+              <div class="card-product__name">Lorem ipsum dolor</div>
               <div class="card-product__price">$105</div>
               <button class="button button--card">Add to cart<i class="icon-plus icon-plus--size"></i></button>
               <a class="card-product__shop link" href="#">
@@ -228,12 +282,10 @@
           </div>
 
           <!-- card-product -->
-          <div class="col">
+          <div class="col-md-3 col-xs-6">
             <div class="card-product">
-              <a href="" class="card-product__link link">
-                <img class="card-product__img" src="pict/card-pr2.jpg" alt="Name product">
-              </a>
-              <div class="card-product__name">Feel tank</div>
+              <img class="card-product__img" src="pict/card-pr2.jpg" alt="">
+              <div class="card-product__name">Lorem ipsum dolor</div>
               <div class="card-product__price">$86</div>
               <button class="button button--card">Add to cart<i class="icon-plus icon-plus--size"></i></button>
               <a class="card-product__shop link" href="#">
@@ -244,12 +296,10 @@
           </div>
 
           <!-- card-product -->
-          <div class="col">
+          <div class="col-md-3 col-xs-6">
             <div class="card-product">
-              <a href="" class="card-product__link link">
-                <img class="card-product__img" src="pict/card-pr3.jpg" alt="Name product">
-              </a>
-              <div class="card-product__name">Hot shorts</div>
+              <img class="card-product__img" src="pict/card-pr3.jpg" alt="">
+              <div class="card-product__name">Lorem ipsum dolor</div>
               <div class="card-product__price">$98.70</div>
               <button class="button button--card">Add to cart<i class="icon-plus icon-plus--size"></i></button>
               <a class="card-product__shop link" href="#">
@@ -260,12 +310,10 @@
           </div>
 
           <!-- card-product -->
-          <div class="col">
+          <div class="col-md-3 col-xs-6">
             <div class="card-product">
-              <a href="" class="card-product__link link">
-                <img class="card-product__img" src="pict/card-pr4.jpg" alt="Name product">
-              </a>
-              <div class="card-product__name">Petrol sweater</div>
+              <img class="card-product__img" src="pict/card-pr4.jpg" alt="">
+              <div class="card-product__name">Lorem ipsum dolor</div>
               <div class="card-product__price">$76.50</div>
               <button class="button button--card">Add to cart<i class="icon-plus icon-plus--size"></i></button>
               <a class="card-product__shop link" href="#">
@@ -291,17 +339,15 @@
     <div class="wrapper">
 
       <div class="clearance__percent">
-        <img class="clearance__percent-img" src="img/ic-clearance.png" alt="Clearance percent">
+        <img class="clearance__percent-img" src="img/ic-clearance.png" alt="">
       </div>
 
-      <div class="row-inline">
+      <div class="row">
 
         <!-- card-product -->
-        <div class="col">
+        <div class="col-xs-3">
           <div class="card-product">
-            <a href="" class="card-product__link link">
-              <img class="card-product__img" src="pict/card-pr5.jpg" alt="Name product">
-            </a>
+            <img class="card-product__img" src="pict/card-pr5.jpg"alt="">
             <div class="card-product__name">Lorem ipsum dolor</div>
             <div class="card-product__price">$56.50</div>
             <button class="button button--card">Add to cart<i class="icon-plus icon-plus--size"></i></button>
@@ -313,12 +359,10 @@
         </div>
 
         <!-- card-product -->
-        <div class="col">
+        <div class="col-xs-3">
           <div class="card-product">
             <div class="card-product__sale">Sale</div>
-            <a href="" class="card-product__link link">
-              <img class="card-product__img" src="pict/card-pr6.jpg" alt="Name product">
-            </a>
+            <img class="card-product__img" src="pict/card-pr6.jpg" alt="">
             <div class="card-product__name">Lorem ipsum dolor</div>
             <div class="card-product__price">$30.50</div>
             <button class="button button--card">Add to cart<i class="icon-plus icon-plus--size"></i></button>
@@ -330,11 +374,9 @@
         </div>
 
         <!-- card-product -->
-        <div class="col">
+        <div class="col-xs-3">
           <div class="card-product">
-            <a href="" class="card-product__link link">
-              <img class="card-product__img" src="pict/card-pr8.jpg" alt="Name product">
-            </a>
+            <img class="card-product__img" src="pict/card-pr8.jpg" alt="">
             <div class="card-product__name">Lorem ipsum dolor</div>
             <div class="card-product__price">$53</div>
             <button class="button button--card">Add to cart<i class="icon-plus icon-plus--size"></i></button>
@@ -346,12 +388,10 @@
         </div>
 
         <!-- card-product -->
-        <div class="col">
+        <div class="col-xs-3">
           <div class="card-product">
             <div class="card-product__sale">Sale</div>
-            <a href="" class="card-product__link link">
-              <img class="card-product__img" src="pict/card-pr7.jpg" alt="Name product">
-            </a>
+            <img class="card-product__img" src="pict/card-pr7.jpg" alt="">
             <div class="card-product__name">Lorem ipsum dolor</div>
             <div class="card-product__price">$26.50</div>
             <button class="button button--card">Add to cart<i class="icon-plus icon-plus--size"></i></button>
@@ -372,14 +412,14 @@
   <div class="brands">
     <div class="wrapper">
       <div class="brands__title">Brands</div>
-      <img class="brands__logo" src="img/ic-brand-1.png" alt="Brand logo">
-      <img class="brands__logo" src="img/ic-brand-2.png" alt="Brand logo">
-      <img class="brands__logo" src="img/ic-brand-3.png" alt="Brand logo">
-      <img class="brands__logo" src="img/ic-brand-4.png" alt="Brand logo">
-      <img class="brands__logo" src="img/ic-brand-5.png" alt="Brand logo">
-      <img class="brands__logo" src="img/ic-brand-6.png" alt="Brand logo">
-      <img class="brands__logo" src="img/ic-brand-7.png" alt="Brand logo">
-      <img class="brands__logo" src="img/ic-brand-8.png" alt="Brand logo">
+      <img class="brands__logo" src="img/ic-brand-1.png" alt="">
+      <img class="brands__logo" src="img/ic-brand-2.png" alt="">
+      <img class="brands__logo" src="img/ic-brand-3.png" alt="">
+      <img class="brands__logo" src="img/ic-brand-4.png" alt="">
+      <img class="brands__logo" src="img/ic-brand-5.png" alt="">
+      <img class="brands__logo" src="img/ic-brand-6.png" alt="">
+      <img class="brands__logo" src="img/ic-brand-7.png" alt="">
+      <img class="brands__logo" src="img/ic-brand-8.png" alt="">
     </div>
   </div>
   <!-- /.brands -->
@@ -400,7 +440,7 @@
   <!-- payment cards -->
   <div class="payment-cards">
     <div class="wrapper">
-      <span class="payment-cards__title">We accept</span>
+      <span class="payment-cards__accept">We accept</span>
       <img class="payment-cards__img" src="img/ic-maestro.png" alt="">
       <img class="payment-cards__img" src="img/ic-mastercard.png" alt="">
       <img class="payment-cards__img" src="img/ic-paypal.png" alt="">
@@ -413,132 +453,23 @@
 </main>
 
 
-
-
-<!-- Footer -->
-<footer class="footer-page">
-  <div class="wrapper">
-    <div class="row">
-
-      <div class="col-xs-2">
-        <div class="footer-page__section">
-          <div class="footer-page__title">Customer service</div>
-          <ul class="footer-page__list">
-            <li class="footer-page__item"><a class="link link--underline" href="">Lorem</a></li>
-            <li class="footer-page__item"><a class="link link--underline" href="">Expedita</a></li>
-            <li class="footer-page__item"><a class="link link--underline" href="">Aspernatur</a></li>
-            <li class="footer-page__item"><a class="link link--underline" href="">Voluptate</a></li>
-            <li class="footer-page__item"><a class="link link--underline" href="">Lotus</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="col-xs-2">
-        <div class="footer-page__section">
-          <div class="footer-page__title">Information</div>
-          <ul class="footer-page__list">
-            <li class="footer-page__item"><a class="link link--underline" href="">Lorem</a></li>
-            <li class="footer-page__item"><a class="link link--underline" href="">Expedita</a></li>
-            <li class="footer-page__item"><a class="link link--underline" href="">Aspernatur</a></li>
-            <li class="footer-page__item"><a class="link link--underline" href="">Voluptate</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="col-xs-2">
-        <div class="footer-page__section">
-        <div class="footer-page__title">Campaigns</div>
-          <ul class="footer-page__list">
-            <li class="footer-page__item"><a class="link link--underline" href="">Lorem</a></li>
-            <li class="footer-page__item"><a class="link link--underline" href="">Expedita</a></li>
-            <li class="footer-page__item"><a class="link link--underline" href="">Aspernatur</a></li>
-            <li class="footer-page__item"><a class="link link--underline" href="">Voluptate</a></li>
-            <li class="footer-page__item"><a class="link link--underline" href="">Lotus</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="col-xs-2">
-        <div class="footer-page__section">
-          <div class="footer-page__title">Stores</div>
-          <ul class="footer-page__list">
-            <li class="footer-page__item"><a class="link link--underline" href="">Paris</a></li>
-            <li class="footer-page__item"><a class="link link--underline" href="">New York</a></li>
-            <li class="footer-page__item"><a class="link link--underline" href="">Madrid</a></li>
-            <li class="footer-page__item"><a class="link link--underline" href="">London</a></li>
-            <li class="footer-page__item"><a class="link link--underline" href="">Tokio</a></li>
-          </ul>
-        </div>
-      </div>
-      
-      <div class="col-xs-2">
-        <div class="footer-page__section">
-          <div class="footer-page__title">Lorem</div>
-          <ul class="footer-page__list">
-            <li class="footer-page__item"><a class="link link--underline" href="">Lorem</a></li>
-            <li class="footer-page__item"><a class="link link--underline" href="">Expedita</a></li>
-            <li class="footer-page__item"><a class="link link--underline" href="">Aspernatur</a></li>
-            <li class="footer-page__item"><a class="link link--underline" href="">Voluptate</a></li>
-            <li class="footer-page__item"><a class="link link--underline" href="">Lotus</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="col-xs-2">
-        <div class="footer-page__section">
-          <div class="footer-page__title">Social</div>
-            <a class="icon-social link" href=""><i class="icon-twitter-circled"></i></a>
-            <a class="icon-social link" href=""><i class="icon-facebook-circled"></i></a>
-            <a class="icon-social link" href=""><i class="icon-pinterest-circled"></i></a>
-            <a class="icon-social link" href=""><i class="icon-gplus-circled"></i></a>
-            <a class="icon-social link" href=""><i class="icon-vimeo-circled"></i></a>
-            <a class="icon-social link" href=""><i class="icon-tumblr-circled"></i></a>
-        </div>
-      </div>
-
-    </div><!-- /.row -->
-
-    <a class="footer-page__info link link--underline" href="#">Lookshop information</a>
-
-  </div><!-- /.wrapper -->
-
-</footer>
-
 </div><!-- /.container -->
 
-<!-- JS -->
   <script>
-
+    
     $(document).ready(function() {
-      $(".main-nav__title").click(function() {
-        $(".main-nav__list").slideToggle(500);
-      });//end slide toggle
+      $('.main-nav__title').click(function() {
+      $('.main-nav__list').slideToggle(500);
+    });//end slide toggle
 
-      $(window).resize(function() {   
-        if (  $(window).width() > 992 ) {     
-          $(".main-nav__list").removeAttr("style");
+    $(window).resize(function() {   
+      if (  $(window).width() > 992 ) {     
+        $('.main-nav__list').removeAttr('style');
         }
       });//end resize
     });//end ready
-    
+
   </script>
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,6 +1,7 @@
 /* -------- email-user -------- */
 
 .email-user {
+  float: left;
   margin: 15px 0;
   font-size: 0;
 
@@ -17,3 +18,18 @@
   }
 }
 
+@media (max-width: 640px) {
+  .email-user {
+    float: none;
+    margin-bottom: 25px;
+
+    &__label {
+      display: none;
+    }
+
+    &__input {
+      
+      background-color: $color-gray-lighter;
+    }
+  }
+}
