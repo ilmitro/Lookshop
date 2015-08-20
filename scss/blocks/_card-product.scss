@@ -41,12 +41,12 @@
     text-transform: uppercase;
     opacity: 0;
     transition: opacity .5s;
-  }
 
-  .icon-shop--size {
-    font-size: 30px;
+    .icon-shop {
+      font-size: 30px;
+    }
   }
-
+  
   &__shop-text {
     display: block;
     margin-top: 10px;

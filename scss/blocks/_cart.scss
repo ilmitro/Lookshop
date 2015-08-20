@@ -6,7 +6,6 @@
   padding-right: 15px;
   background-color: $color-gray-lighter;
   border: 1px solid $color-gray;
-  font-size: $font-size-secondary;
   line-height: 45px;
 
   &:hover {
@@ -19,7 +18,8 @@
   }
 
   &__inform {
-    float: right; 
+    float: right;
+    font-size: $font-size-secondary;
   }
 
   &__items {

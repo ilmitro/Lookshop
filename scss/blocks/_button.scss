@@ -16,7 +16,7 @@
     text-transform: uppercase;
     font-size: $font-size-base;
 
-    .icon-plus--size {
+    .icon-plus {
       font-size: 20px;
     }
   }
@@ -28,28 +28,4 @@
     text-transform: uppercase;
     box-shadow: none;
   }
-
-  // &--slider {
-  //   position: absolute;
-  //   bottom: 15%;
-  //   left: 23%;
-  //   padding: 15px;
-  //   padding-right: 40px;
-  //   text-transform: uppercase;
-  //   color: #fff;
-
-  //   &:before {
-  //     position: absolute;
-  //     content: "";
-  //     display: inline-block;
-  //     width: 8px;
-  //     height: 8px;
-  //     border: 1px solid #fff;
-  //     border-top: transparent;
-  //     border-left: transparent;
-  //     transform: rotate(-45deg);
-  //     top: 38%;
-  //     right: 10%;
-  //   }
-  // }
 }

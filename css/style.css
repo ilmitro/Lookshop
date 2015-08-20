@@ -68,32 +68,6 @@
   font: 16px "Arial" sans-serif;
 }
 
-/* -------- icon-social -------- */
-.icon-social {
-  display: inline-block;
-  margin-bottom: 10px;
-}
-.icon-social:hover {
-  opacity: .5;
-}
-
-/* -------- fontello-icons -------- */
-.icon-facebook,
-.icon-twitter,
-.icon-pinterest {
-  font-size: 20px;
-}
-
-.icon-twitter-circled,
-.icon-gplus-circled,
-.icon-vimeo-circled,
-.icon-tumblr-circled,
-.icon-pinterest-circled,
-.icon-facebook-circled {
-  font-size: 30px;
-  margin-left: -6px;
-}
-
 /* -------- wrapper -------- */
 .wrapper {
   max-width: 970px;
@@ -246,7 +220,6 @@
   padding-right: 15px;
   background-color: #f7f7f7;
   border: 1px solid #d6d6d6;
-  font-size: 12px;
   line-height: 45px;
 }
 .cart:hover {
@@ -258,6 +231,7 @@
 }
 .cart__inform {
   float: right;
+  font-size: 12px;
 }
 .cart__items {
   padding-right: 7px;
@@ -304,7 +278,7 @@
 .fast-contacts__social-fbk, .fast-contacts__social-twt, .fast-contacts__social-pnt {
   display: inline-block;
   padding: 18.5px 16px;
-  font-size: 12px;
+  font-size: 20px;
   background-color: #f7f7f7;
 }
 .fast-contacts__social-fbk:hover, .fast-contacts__social-twt:hover, .fast-contacts__social-pnt:hover {
@@ -390,7 +364,7 @@
   text-transform: uppercase;
   font-size: 16px;
 }
-.button--card .icon-plus--size {
+.button--card .icon-plus {
   font-size: 20px;
 }
 .button--load {
@@ -491,7 +465,7 @@
   -webkit-transition: opacity .5s;
           transition: opacity .5s;
 }
-.card-product .icon-shop--size {
+.card-product__shop .icon-shop {
   font-size: 30px;
 }
 .card-product__shop-text {
@@ -639,6 +613,23 @@
     display: block;
     text-align: center;
   }
+}
+/* -------- icon-social -------- */
+.icon-social {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.icon-social:hover {
+  opacity: .5;
+}
+.icon-social .icon-twitter-circled,
+.icon-social .icon-gplus-circled,
+.icon-social .icon-vimeo-circled,
+.icon-social .icon-tumblr-circled,
+.icon-social .icon-pinterest-circled,
+.icon-social .icon-facebook-circled {
+  font-size: 30px;
+  margin-left: -6px;
 }
 
 /*# sourceMappingURL=style.css.map */
