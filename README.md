@@ -6,8 +6,6 @@ bower install<br>
 в файле bootstrap.scss подключены только: <br>
 
 @import "bootstrap/variables"; <br>
-  // изменены пути к иконкам glyphicons <br>
-
 @import "bootstrap/mixins"; <br>
 @import "bootstrap/normalize"; <br>
 @import "bootstrap/glyphicons"; <br>
