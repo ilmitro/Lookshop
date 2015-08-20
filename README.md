@@ -1,24 +1,24 @@
 # Lookshop
 
-Для дальнейшей разработки:
+Для дальнейшей разработки: <br>
 
-bower install
-в файле bootstrap.scss подключены только:
+bower install<br>
+в файле bootstrap.scss подключены только: <br>
 
-// Core variables and mixins 
-@import "bootstrap/variables"; 
-  // изменены пути к иконкам glyphicons
+// Core variables and mixins <br>
+@import "bootstrap/variables"; <br>
+  // изменены пути к иконкам glyphicons <br>
 
-@import "bootstrap/mixins";
+@import "bootstrap/mixins"; <br>
 
-// Reset and dependencies 
-@import "bootstrap/normalize"; @import "bootstrap/glyphicons";
+// Reset and dependencies <br> 
+@import "bootstrap/normalize"; @import "bootstrap/glyphicons"; <br>
 
-// Core CSS 
-@import "bootstrap/scaffolding"; @import "bootstrap/grid";
+// Core CSS <br> 
+@import "bootstrap/scaffolding"; @import "bootstrap/grid"; <br>
 
-// Components w/ JavaScript 
-@import "bootstrap/carousel";
+// Components w/ JavaScript <br> 
+@import "bootstrap/carousel"; <br>
 
-// Utility classes 
+// Utility classes <br> 
 @import "bootstrap/utilities"; @import "bootstrap/responsive-utilities";
