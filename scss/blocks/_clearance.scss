@@ -1,7 +1,7 @@
 /* -------- clearance -------- */
 
 .clearance {
-  margin: 40px 0;
+  margin: 40px 15px;
   text-align: center;
 
   &__percent {
@@ -24,5 +24,17 @@
     position: relative;
     z-index: 1;
     box-shadow: 0 0 0 10px #fff;
+  }
+}
+
+@media (max-width: 992px) {
+  .clearance .row-inline [class^="col-"] {
+    width: 50%;
+  }
+}
+
+@media (max-width: 640px) {
+  .clearance .row-inline [class^="col-"] {
+    width: 100%;
   }
 }

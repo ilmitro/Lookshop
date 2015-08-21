@@ -3,7 +3,7 @@
 .new-products {
 
   &__list {
-    padding: 30px;
+    padding: 30px 15px;
     background-color: $color-brand;
     text-align: center;
   }
@@ -20,12 +20,18 @@
   }
 }
 
+@media (max-width: 992px) {
+  .new-products .row-inline [class^="col-"] {
+    width: 50%;
+  }
+}
+
 @media (max-width: 640px) {
   .new-products {
     margin-top: 30px;
 
-    &__title {
-      font-size: $font-size-secondary;
+    .row-inline [class^="col-"] {
+      width: 100%;
     }
   }
 }

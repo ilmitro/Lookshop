@@ -4,62 +4,57 @@
   margin-right: -15px;
   font-size: 0;
 }
-
-.row-inline .col {
+.row-inline > div {
   display: inline-block;
+  padding: 0 15px;
   vertical-align: top;
 }
 
-.col {
-  padding: 0 15px;
-  box-sizing: border-box;
-}
-
-.s-1 {
+.col-1 {
   width: 8.33%;
 }
 
-.s-2 {
+.col-2 {
   width: 16.66%;
 }
 
-.s-3 {
+.col-3 {
   width: 25%;
 }
 
-.s-4 {
+.col-4 {
   width: 33.33%;
 }
 
-.s-5 {
+.col-5 {
   width: 41.66%;
 }
 
-.s-6 {
+.col-6 {
   width: 50%;
 }
 
-.s-7 {
+.col-7 {
   width: 58.33%;
 }
 
-.s-8 {
+.col-8 {
   width: 66.66%;
 }
 
-.s-9 {
+.col-9 {
   width: 75%;
 }
 
-.s-10 {
+.col-10 {
   width: 83.11%;
 }
 
-.s-11 {
+.col-11 {
   width: 91.66%;
 }
 
-.s-12 {
+.col-12 {
   width: 100%;
 }
 
@@ -401,7 +396,7 @@
 }
 /* -------- new-products -------- */
 .new-products__list {
-  padding: 30px;
+  padding: 30px 15px;
   background-color: #fd926d;
   text-align: center;
 }
@@ -416,12 +411,17 @@
   background-color: #fd926d;
 }
 
+@media (max-width: 992px) {
+  .new-products .row-inline [class^="col-"] {
+    width: 50%;
+  }
+}
 @media (max-width: 640px) {
   .new-products {
     margin-top: 30px;
   }
-  .new-products__title {
-    font-size: 12px;
+  .new-products .row-inline [class^="col-"] {
+    width: 100%;
   }
 }
 /* -------- card-product -------- */
@@ -490,7 +490,7 @@
 
 /* -------- clearance -------- */
 .clearance {
-  margin: 40px 0;
+  margin: 40px 15px;
   text-align: center;
 }
 .clearance__percent {
@@ -514,6 +514,16 @@
   box-shadow: 0 0 0 10px #fff;
 }
 
+@media (max-width: 992px) {
+  .clearance .row-inline [class^="col-"] {
+    width: 50%;
+  }
+}
+@media (max-width: 640px) {
+  .clearance .row-inline [class^="col-"] {
+    width: 100%;
+  }
+}
 /* -------- brands -------- */
 .brands {
   position: relative;
