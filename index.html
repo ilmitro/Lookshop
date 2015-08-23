@@ -509,13 +509,13 @@
   <script>
 
     $(document).ready(function() {
-      $(".main-nav__title").click(function() {
-        $(".main-nav__list").slideToggle(500);
+      $('.main-nav__title').click(function() {
+        $('.main-nav__list').slideToggle(500);
       });//end slide toggle
 
       $(window).resize(function() {   
         if (  $(window).width() > 992 ) {     
-          $(".main-nav__list").removeAttr("style");
+          $('.main-nav__list').removeAttr('style');
         }
       });//end resize
     });//end ready
