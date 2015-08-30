@@ -379,7 +379,7 @@
 .promo__link {
   display: inline-block;
   width: 49%;
-  margin-right: 1%;
+  margin-right: 2%;
 }
 .promo__link:last-child {
   margin-right: 0;
@@ -641,5 +641,3 @@
   font-size: 30px;
   margin-left: -6px;
 }
-
-/*# sourceMappingURL=style.css.map */
