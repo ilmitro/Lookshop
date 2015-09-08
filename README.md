@@ -1,7 +1,5 @@
 # Lookshop
 
-Для дальнейшей разработки: <br>
-
 bower install<br>
 в файле bootstrap.scss подключены только: <br>
 
