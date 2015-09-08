@@ -10,9 +10,6 @@
   <link rel="stylesheet" href="css/vendor/fontello.css">
   <!-- Main styles -->
   <link rel="stylesheet" href="css/style.css">
-  <!-- Jquery -->
-  <script src="js/vendor/jqeury/jquery.min.js"></script>
-  <script src="js/vendor/bootstrap/bootstrap.min.js"></script>
 </head>
 
 <body class="body">
@@ -68,6 +65,8 @@
                 <li class="main-nav__sub-item"><a class="main-nav__link link" href="#">repellat</a></li>
                 <li class="main-nav__sub-item"><a class="main-nav__link link" href="#">tempore delectus</a></li>
                 <li class="main-nav__sub-item"><a class="main-nav__link link" href="#">rem accusantium</a></li>
+                <li class="main-nav__sub-item"><a class="main-nav__link link" href="#">repellat</a></li>
+                <li class="main-nav__sub-item"><a class="main-nav__link link" href="#">tempore delectus</a></li>
               </ul>
             </li>
             <li class="main-nav__item">
@@ -86,6 +85,7 @@
                 <li class="main-nav__sub-item"><a class="main-nav__link link" href="#">repellat</a></li>
                 <li class="main-nav__sub-item"><a class="main-nav__link link" href="#">tempore delectus</a></li>
                 <li class="main-nav__sub-item"><a class="main-nav__link link" href="#">rem accusantium</a></li>
+                <li class="main-nav__sub-item"><a class="main-nav__link link" href="#">repellat</a></li>
               </ul>
             </li>
             <li class="main-nav__item">
@@ -387,7 +387,7 @@
   <!-- about lookshop -->
   <div class="about">
     <div class="wrapper">
-      <h1 class="about__title">About Lookshop</h1>
+      <h2 class="about__title">About Lookshop</h2>
       <p class="about__text">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus numquam exercitationem cum maxime quas ad commodi quos incidunt eum voluptates, laboriosam iusto reprehenderit totam dolores soluta! Aperiam voluptatem excepturi magni commodi id aspernatur sit vero quidem voluptatibus, harum est quibusdam quasi soluta quaerat eaque, earum? Sequi, molestias vero laboriosam reprehenderit.
       </p>  
@@ -421,7 +421,7 @@
 
       <div class="col-xs-2">
         <div class="footer-page__section">
-          <h4 class="footer-page__title">Customer service</h4>
+          <div class="footer-page__title">Customer service</div>
           <ul class="footer-page__list">
             <li class="footer-page__item"><a class="link link--underline" href="">Lorem</a></li>
             <li class="footer-page__item"><a class="link link--underline" href="">Expedita</a></li>
@@ -434,7 +434,7 @@
 
       <div class="col-xs-2">
         <div class="footer-page__section">
-          <h4 class="footer-page__title">Information</h4>
+          <div class="footer-page__title">Information</div>
           <ul class="footer-page__list">
             <li class="footer-page__item"><a class="link link--underline" href="">Lorem</a></li>
             <li class="footer-page__item"><a class="link link--underline" href="">Expedita</a></li>
@@ -446,7 +446,7 @@
 
       <div class="col-xs-2">
         <div class="footer-page__section">
-        <h4 class="footer-page__title">Campaigns</h4>
+        <div class="footer-page__title">Campaigns</div>
           <ul class="footer-page__list">
             <li class="footer-page__item"><a class="link link--underline" href="">Lorem</a></li>
             <li class="footer-page__item"><a class="link link--underline" href="">Expedita</a></li>
@@ -459,7 +459,7 @@
 
       <div class="col-xs-2">
         <div class="footer-page__section">
-          <h4 class="footer-page__title">Stores</h4>
+          <div class="footer-page__title">Stores</div>
           <ul class="footer-page__list">
             <li class="footer-page__item"><a class="link link--underline" href="">Paris</a></li>
             <li class="footer-page__item"><a class="link link--underline" href="">New York</a></li>
@@ -472,7 +472,7 @@
       
       <div class="col-xs-2">
         <div class="footer-page__section">
-          <h4 class="footer-page__title">Lorem</h4>
+          <div class="footer-page__title">Lorem</div>
           <ul class="footer-page__list">
             <li class="footer-page__item"><a class="link link--underline" href="">Lorem</a></li>
             <li class="footer-page__item"><a class="link link--underline" href="">Expedita</a></li>
@@ -485,7 +485,7 @@
 
       <div class="col-xs-2">
         <div class="footer-page__section">
-          <h4 class="footer-page__title">Social</h4>
+          <div class="footer-page__title">Social</div>
             <a class="icon-social link" href=""><span class="icon-twitter-circled"></span></a>
             <a class="icon-social link" href=""><span class="icon-facebook-circled"></span></a>
             <a class="icon-social link" href=""><span class="icon-pinterest-circled"></span></a>
@@ -505,9 +505,10 @@
 
 </div><!-- /.container -->
 
-<!-- JS -->
+<!-- Jquery -->
+  <script src="js/vendor/jqeury/jquery.min.js"></script>
+  <script src="js/vendor/bootstrap/bootstrap.min.js"></script>
   <script>
-
     $(document).ready(function() {
       $('.main-nav__title').click(function() {
         $('.main-nav__list').slideToggle(500);
@@ -518,8 +519,7 @@
           $('.main-nav__list').removeAttr('style');
         }
       });//end resize
-    });//end ready
-    
+    });//end ready   
   </script>
 
 </body>
